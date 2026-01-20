@@ -57,10 +57,6 @@ NestJS | PostgreSQL | Prisma | OpenAI API | React + Vite | Render | Vercel
 - Secure database with PostgreSQL + Prisma  
 - Deployed on Render (backend) and Vercel (frontend)  
 
-###  Screenshots  
-![Dashboard Screenshot](screenshots/logistics_dashboard.png)  
-![AI Chat Interface](screenshots/logistics_chat.png)  
-
 ---
 
 ## ** 2 Personal AI Assistant using LangChain**  
