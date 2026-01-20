@@ -41,7 +41,7 @@ This repository showcases my work in building intelligent AI systems, LLM-based 
 
 ---
 
-## **1️1 AI-Powered Multi-Agent Logistics Tracking System**  
+## ** 1 AI-Powered Multi-Agent Logistics Tracking System**  
 **Live Demo:**(https://youtu.be/Dm0pFj8i_eA?si=wJCwhhXo8fvy8nMD)
 
 ###  Overview  
