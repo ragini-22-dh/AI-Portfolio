@@ -81,7 +81,7 @@ Python | LangChain | OpenAI API | Web APIs
 ![Tool Selection Workflow](screenshots/ai_assistant_tools.png)  
 
 ### Demo Video  
-[▶ Watch Demo]((https://youtu.be/MTTbw3yttlY))
+[▶ Watch Demo](https://youtu.be/MTTbw3yttlY)
 
 ---
 
