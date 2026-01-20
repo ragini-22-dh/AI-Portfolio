@@ -60,6 +60,8 @@ NestJS | PostgreSQL | Prisma | OpenAI API | React + Vite | Render | Vercel
 ---
 
 ## ** 2 Personal AI Assistant using LangChain**  
+**Live Demo:**(https://youtu.be/MTTbw3yttlY)
+
 ### Overview  
 An intelligent AI assistant that integrates web search, browsing, and email automation while maintaining conversational memory.
 
@@ -75,9 +77,6 @@ Python | LangChain | OpenAI API | Web APIs
 ### Screenshots  
 ![Chat Interface](screenshots/ai_assistant_chat.png)  
 ![Tool Selection Workflow](screenshots/ai_assistant_tools.png)  
-
-### Demo Video  
-[▶ Watch Demo](https://youtu.be/MTTbw3yttlY)
 
 ---
 
