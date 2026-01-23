@@ -74,10 +74,6 @@ Python | LangChain | OpenAI API | Web APIs
 - Web search and email automation  
 - Dynamic tool selection based on user intent  
 
-### Screenshots  
-![Chat Interface](screenshots/ai_assistant_chat.png)  
-![Tool Selection Workflow](screenshots/ai_assistant_tools.png)  
-
 ---
 
 ## ** 3 PDF-Based RAG Chatbot**  
@@ -85,17 +81,31 @@ Python | LangChain | OpenAI API | Web APIs
 An AI-powered chatbot that retrieves information from PDFs using RAG pipelines.
 
 ### Tech Stack  
-Python | LangChain | ChromaDB | RAG | CrewAI | OpenAI Swarm  
+Python | LangChain | ChromaDB | RAG | OpenAI Swarm  
 
 ### Key Features  
 - Document ingestion from PDFs  
 - Semantic search with ChromaDB  
 - Context-aware AI responses using RAG  
-- Multi-agent experimentation with CrewAI & Swarm  
 
-### Screenshots  
-![PDF Upload](screenshots/pdf_upload.png)  
-![RAG Chatbot Response](screenshots/rag_chat.png)  
+---
+
+## ** 4 Multi-Agent Research System**  
+
+**Live Demo:**(https://youtu.be/gGJiguhEhC4)
+
+### Overview  
+multi-agent research system using CrewAI where specialized agents (researcher, analyst, writer, presenter) collaborate in a sequential pipeline to produce research notes, analytical insights, a structured summary, and a slide-ready presentation outline
+
+### Tech Stack  
+CrewAI | OpenAI API | AutoGen
+
+### Key Features  
+- Used specialized Multi Agents
+- Connected each using Autogen 
+- Produced Structured Output 
+- Multi-agent experimentation with CrewAI & AutoGen  
+
 
 
 
