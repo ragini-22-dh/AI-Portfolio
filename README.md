@@ -41,7 +41,7 @@ This repository showcases my work in building intelligent AI systems, LLM-based 
 
 ---
 
-## ** 1 AI-Powered Multi-Agent Logistics Tracking System**  
+## 1 AI-Powered Multi-Agent Logistics Tracking System**  
 **Live Demo:**(https://youtu.be/Dm0pFj8i_eA?si=wJCwhhXo8fvy8nMD)
 
 ###  Overview  
@@ -59,7 +59,7 @@ NestJS | PostgreSQL | Prisma | OpenAI API | React + Vite | Render | Vercel
 
 ---
 
-## ** 2 Personal AI Assistant using LangChain**  
+## 2 Personal AI Assistant using LangChain**  
 **Live Demo:**(https://youtu.be/MTTbw3yttlY)
 
 ### Overview  
@@ -76,7 +76,7 @@ Python | LangChain | OpenAI API | Web APIs
 
 ---
 
-## ** 3 PDF-Based RAG Chatbot**  
+## 3 PDF-Based RAG Chatbot**  
 ### Overview  
 An AI-powered chatbot that retrieves information from PDFs using RAG pipelines.
 
@@ -90,7 +90,7 @@ Python | LangChain | ChromaDB | RAG | OpenAI Swarm
 
 ---
 
-## ** 4 Multi-Agent Research System**  
+## 4 Multi-Agent Research System**  
 
 **Live Demo:**(https://youtu.be/gGJiguhEhC4)
 
@@ -104,9 +104,43 @@ CrewAI | OpenAI API | AutoGen
 - Used specialized Multi Agents
 - Connected each using Autogen 
 - Produced Structured Output 
-- Multi-agent experimentation with CrewAI & AutoGen  
+- Multi-agent experimentation with CrewAI & AutoGen
+   
+## 5 Automated Job Tracking Agent 
 
+**Live Demo:**(https://youtu.be/U8lBdfg8v_Y)
 
+### Overview  
+This project is an end-to-end automation agent that runs daily in the background to:
+Scrape job listings from the web using Playwright
+Deduplicate previously seen roles
+Store new results in Google Sheets
+Send a daily email summary via SendGrid
+Run on a schedule using cron or GitHub Actions
+It demonstrates real-world ntegrations, background execution, and production-style secret management.
 
+### Tech Stack  
+- Python
+- Playwright (browser automation)
+- Google Sheets API
+- SendGrid Email API
+- python-dotenv
+- GitHub Actions / cron
+- JSON persistence for deduplication
+
+### How It Works
+Scraper collects job listings from target sites.
+Each job gets a hashed ID for deduplication.
+Previously processed jobs are tracked in seen_jobs.json.
+New jobs are appended to Google Sheets.
+A summary email is generated and sent.
+The whole pipeline runs automatically every day.
+
+### .env
+- GOOGLE_SHEET_ID=...
+- GOOGLE_SERVICE_ACCOUNT_FILE=service_account.json
+- SENDGRID_API_KEY=...
+- FROM_EMAIL=...
+- EMAIL_TO=...
 
 
